@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FE9A0CB2-241B-41D7-92F9-F8A95518CB9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Image", "Image", "{6E2A971A-8C42-4492-9EA7-B4212390F460}"
+	ProjectSection(SolutionItems) = preProject
+		src\Image\icon-menu-01-system.png = src\Image\icon-menu-01-system.png
+		src\Image\icon-menu-02-pm.png = src\Image\icon-menu-02-pm.png
+		src\Image\icon-menu-03-history.png = src\Image\icon-menu-03-history.png
+		src\Image\icon-menu-04.png = src\Image\icon-menu-04.png
+		src\Image\icon-menu-05.png = src\Image\icon-menu-05.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "View", "View", "{0F447C89-C664-41FF-96D0-9857156FB2E5}"
+	ProjectSection(SolutionItems) = preProject
+		src\View\ModernToolbar.xaml = src\View\ModernToolbar.xaml
+		src\View\ModernToolbar.xaml.cs = src\View\ModernToolbar.xaml.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewModel", "ViewModel", "{D60D9BE8-C85E-46F0-9377-A9945076D5CF}"
+	ProjectSection(SolutionItems) = preProject
+		src\ViewModel\ModernToolbarViewModel.cs = src\ViewModel\ModernToolbarViewModel.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Windows.Controls.Toolbar.ModernToolbar(dotNet)", "dotNet\Atomus.Windows.Controls.Toolbar.ModernToolbar(dotNet).csproj", "{72720E2F-3737-409A-B887-D19E13AEE2AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72720E2F-3737-409A-B887-D19E13AEE2AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72720E2F-3737-409A-B887-D19E13AEE2AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72720E2F-3737-409A-B887-D19E13AEE2AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72720E2F-3737-409A-B887-D19E13AEE2AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6E2A971A-8C42-4492-9EA7-B4212390F460} = {FE9A0CB2-241B-41D7-92F9-F8A95518CB9C}
+		{0F447C89-C664-41FF-96D0-9857156FB2E5} = {FE9A0CB2-241B-41D7-92F9-F8A95518CB9C}
+		{D60D9BE8-C85E-46F0-9377-A9945076D5CF} = {FE9A0CB2-241B-41D7-92F9-F8A95518CB9C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53B0AEEB-B393-46B6-8F5C-846DC85FB425}
+	EndGlobalSection
+EndGlobal
